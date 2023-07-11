@@ -1,0 +1,328 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Smart Bazaar an E-commerce Online Shopping Category Flat Bootstrap Responsive Website Template | Offers :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Smart Bazaar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/style2.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="/assets/css/animate.min.css" rel="stylesheet" type="text/css" media="all" /><!-- animation -->
+<link href="/assets/css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style -->  
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="/assets/css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="/as/assets/js/jquery-2.2.3.min.js"></script> 
+<script src="/assets/js/jquery-scrolltofixed-min.js" type="text/javascript"></script><!-- fixed nav js -->
+<script>
+    $(document).ready(function() {
+
+        // Dock the header to the top of the window when scrolled past the banner. This is the default behaviour.
+
+        $('.header-two').scrollToFixed();  
+        // previous summary up the page.
+
+        var summaries = $('.summary');
+        summaries.each(function(i) {
+            var summary = $(summaries[i]);
+            var next = summaries[i + 1];
+
+            summary.scrollToFixed({
+                marginTop: $('.header-two').outerHeight(true) + 10, 
+                zIndex: 999
+            });
+        });
+    });
+</script>
+<!-- //js --> 
+<!-- web-fonts -->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'> 
+<link href='//fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+<!-- web-fonts -->  
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="/assets/js/move-top.js"></script>
+<script type="text/javascript" src="/assets/js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!-- //end-smooth-scrolling -->
+<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
+</head>
+<body>
+	<!-- header -->
+	
+		<div class="header-two"><!-- header-two -->
+			<div class="container">
+				<div class="header-logo">
+					<h1><a href="index.html"><span>L</span> et's <i>Care</i></a></h1>
+					<h6>Your stores. Your place.</h6> 
+				</div>	
+				<div class="header-search">
+					<form action="#" method="post">
+						<input type="search" name="Search" placeholder="Search for a Product..." required="">
+						<button type="submit" class="btn btn-default" aria-label="Left Align">
+							<i class="fa fa-search" aria-hidden="true"> </i>
+						</button>
+					</form>
+				</div>
+				<div class="header-cart"> 
+					<div class="my-account">
+						<a href="https://forms.gle/4rzS9efquRekRddJ7"><i class="fa fa-map-marker" aria-hidden="true"></i> CONTACT US</a>						
+					</div>
+					<div class="cart"> 
+						<form action="#" method="post" class="last"> 
+							<input type="hidden" name="cmd" value="_cart" />
+							<input type="hidden" name="display" value="1" />
+							<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+						</form>  
+					</div>
+					<div class="clearfix"> </div> 
+				</div> 
+				<div class="clearfix"> </div>
+			</div>		
+		</div><!-- //header-two -->
+		<div class="header-three"><!-- header-three -->
+			<div class="container">
+				<div class="menu">
+					<div class="cd-dropdown-wrapper">
+						<a class="cd-dropdown-trigger" href="#0">Store Categories</a>
+						<nav class="cd-dropdown"> 
+							<a href="#0" class="cd-close">Close</a>
+							<ul class="cd-dropdown-content"> 
+								<li><a href="marketplace.html">Today's Offers</a></li>
+								
+										
+								
+								<li><a href="sitemap.html">Full Site Directory </a></li>  
+							</ul> <!-- .cd-dropdown-content -->
+						</nav> <!-- .cd-dropdown -->
+					</div> <!-- .cd-dropdown-wrapper -->	 
+				</div>
+				<div class="move-text">
+					<div class="marquee"><a href="offers.html"> New collections are available here...... <span>Get extra 10% off on everything | no extra taxes </span> <span> Try shipping pass free for 15 days with unlimited</span></a></div>
+					<script type="text/javascript" src="/assets/js/jquery.marquee.min.js"></script>
+					<script>
+					  $('.marquee').marquee({ pauseOnHover: true });
+					  //@ sourceURL=pen.js
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header --> 	
+	<!-- offers-page -->
+	<div class="wthree-offers">
+		<div class="container">
+			<h3 class="w3ls-title w3ls-title1">Let's Store </h3>
+			<div class="w3ls-add-grids w3agile-add-products">
+				<a href="#"> 
+					<h4>TOP 10 TRENDS FOR YOU FLAT <span>20%</span> OFF</h4>
+					<h6>Shop now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+				</a>
+			</div> 
+			<div class="offer-card-row">
+				<div class="col-md-4 offer-card-grids">
+					<h4>Donasi </h4>
+					<p> </p>
+					<a href="paymentform.html">Shop Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-4 offer-card-grids">
+					<h4>Relawan</h4>
+					<p> </p>
+					<a href="https://forms.gle/4rzS9efquRekRddJ7">Shop Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>
+				
+				<div class="col-md-4 offer-card-grids">
+					<h4>Produk </h4>
+					<p> </p>
+					<a href="#Produk">Shop Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>	
+				
+				<div class="clearfix"> </div>
+			</div>	
+			<section class="section Produk" id="Produk">
+			<br><br><br>
+			<h1>Produk</h1>
+			<br><br><br><br>
+			<div class="offer-bottom"> 
+				<div class="col-md-6 offer-bottom-grids">
+					<div class="offer-bottom-grids-info2">
+					</div>
+					<h4>Kerajinan Tangan </h4> 
+					<h6>Lampu Hias</h6>
+						<h6></h6>
+						<a href="#modalSignupHorizontal">Beli Sekarang <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-md-6 offer-bottom-grids">
+					<div class="offer-bottom-grids-info3">
+					</div>
+					<h4>Kerajinan Tangan</h4> 
+						<h6>Hiasan Dinding</h6>
+						<a href="#modalSignupHorizontal">Beli Sekarang <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+					<br><br><br><br>
+				</div>
+				<div class="col-md-6 offer-bottom-grids">
+					<div class="offer-bottom-grids-info4">
+					</div>
+					<h4>Kerajinan Tangan</h4> 
+						<h6>Hiasan Rumah</h6>
+						<a href="#modalSignupHorizontal">Shop Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>
+				
+				<div class="col-md-6 offer-bottom-grids">
+					<div class="offer-bottom-grids-info">
+					</div>
+					<h4>Kerajinan Tangan</h4> 
+						<h6>Kotak Penyimpanan</h6>
+						<a href="#modalSignupHorizontal">Beli Sekarang <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+				</div>
+			</section>
+				<div class="clearfix"> </div>
+				<br><br>
+
+			</div>
+		</div>
+	</div>
+	<!-- //login-page --> 
+	<!-- footer-top -->
+	<div class="w3agile-ftr-top">
+		<div class="container">
+			<div class="ftr-toprow">
+				<div class="col-md-4 ftr-top-grids">
+					<div class="ftr-top-left">
+						<i class="fa fa-truck" aria-hidden="true"></i>
+					</div> 
+					<div class="ftr-top-right">
+						<h4>FREE DELIVERY</h4>
+						<p> </p>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="col-md-4 ftr-top-grids">
+					<div class="ftr-top-left">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div> 
+					<div class="ftr-top-right">
+						<h4>CUSTOMER CARE</h4>
+						<p> </p>
+					</div> 
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 ftr-top-grids">
+					<div class="ftr-top-left">
+						<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+					</div> 
+					<div class="ftr-top-right">
+						<h4>GOOD QUALITY</h4>
+						<p></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer-top -->
+	
+	<!-- subscribe -->
+	<div class="subscribe"> 
+		<div class="container">
+			<div class="col-md-6 social-icons w3-agile-icons">
+				<h4>Keep in touch</h4>  
+				<ul>
+					<li><a href="#" class="fa fa-facebook icon facebook"> </a></li>
+					<li><a href="#" class="fa fa-twitter icon twitter"> </a></li>
+					<li><a href="#" class="fa fa-google-plus icon googleplus"> </a></li>
+					<li><a href="#" class="fa fa-dribbble icon dribbble"> </a></li>
+					<li><a href="#" class="fa fa-rss icon rss"> </a></li> 
+				</ul>
+				<ul class="apps"> 
+					<li><h4>Download Our app : </h4> </li>
+					<li><a href="#" class="fa fa-apple"></a></li>
+					<li><a href="#" class="fa fa-windows"></a></li>
+					<li><a href="#" class="fa fa-android"></a></li>
+				</ul>
+			</div> 
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //subscribe --> 
+	<!-- footer -->
+	<div class="footer">
+		
+	<!-- //footer -->		
+	<div class="copy-right"> 
+		<div class="container">
+			<p>© 2023 Let's Care . All rights reserved</a></p><br>
+		</div>
+	</div> 
+	<!-- cart-js -->
+	<script src="/assets/js/minicart.js"></script>
+	<script>
+        w3ls.render();
+
+        w3ls.cart.on('w3sb_checkout', function (evt) {
+        	var items, len, i;
+
+        	if (this.subtotal() > 0) {
+        		items = this.items();
+
+        		for (i = 0, len = items.length; i < len; i++) {
+        			items[i].set('shipping', 0);
+        			items[i].set('shipping2', 0);
+        		}
+        	}
+        });
+    </script>  
+	<!-- //cart-js --> 	 
+	<!-- menu js aim -->
+	<script src="/assets/js/jquery.menu-aim.js"> </script>
+	<script src="/assets/js/main.js"></script> <!-- Resource jQuery -->
+	<!-- //menu js aim --> 
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/bootstrap.js"></script>
+
+	
+
+
+	
+	
+</body>
+</html>
